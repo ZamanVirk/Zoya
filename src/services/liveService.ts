@@ -46,7 +46,7 @@ export class LiveSessionManager {
   public onCommand: (url: string) => void = () => {};
 
   constructor() {
-    this.ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+    this.ai = new GoogleGenAI({ apiKey:"AIzaSyBRy7Bh6LlUiBmM2TXyn9pVtv71S4hrPCs" });
   }
 
   async start() {
