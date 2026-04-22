@@ -1,0 +1,7 @@
+{
+  "name": "Remix: Zoya - AI Voice Assistant",
+  "description": "Zoya: A sassy, witty, and loyal AI voice assistant created exclusively by Zaman Virk.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
