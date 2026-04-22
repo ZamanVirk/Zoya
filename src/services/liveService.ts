@@ -1,7 +1,7 @@
 // liveService.ts
 import { GoogleGenAI } from "@google/genai";
 
-const API_KEY = "AIzaSyBRy7Bh6LlUiBmM2TXyn9pVtv71S4hrPCs";
+const API_KEY = "AIzaSyCgNs7cRDtx9t5drtPABnnkroWNO1AEQcw";
 
 class LiveService {
   private client = new GoogleGenAI({ apiKey: API_KEY });
