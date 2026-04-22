@@ -34,7 +34,7 @@ export function resetZoyaSession() {
 
 export async function getZoyaResponse(prompt: string, history: { sender: "user" | "zoya", text: string }[] = []): Promise<string> {
   try {
-    const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+    const ai = new GoogleGenAI({ apiKey: "AIzaSyBRy7Bh6LlUiBmM2TXyn9pVtv71S4hrPCs" });
     
     if (!chatSession) {
       // SLIDING WINDOW MEMORY: Keep only the last 20 messages to prevent "buffer full" (context window overflow)
